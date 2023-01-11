@@ -1,0 +1,7 @@
+C:\Users\andre.lopes\source\repos\bytebank_ADM\bytebank_ADM\bin\Debug\bytebank_ADM.exe.config
+C:\Users\andre.lopes\source\repos\bytebank_ADM\bytebank_ADM\bin\Debug\bytebank_ADM.exe
+C:\Users\andre.lopes\source\repos\bytebank_ADM\bytebank_ADM\bin\Debug\bytebank_ADM.pdb
+C:\Users\andre.lopes\source\repos\bytebank_ADM\bytebank_ADM\obj\Debug\bytebank_ADM.csprojAssemblyReference.cache
+C:\Users\andre.lopes\source\repos\bytebank_ADM\bytebank_ADM\obj\Debug\bytebank_ADM.csproj.CoreCompileInputs.cache
+C:\Users\andre.lopes\source\repos\bytebank_ADM\bytebank_ADM\obj\Debug\bytebank_ADM.exe
+C:\Users\andre.lopes\source\repos\bytebank_ADM\bytebank_ADM\obj\Debug\bytebank_ADM.pdb
