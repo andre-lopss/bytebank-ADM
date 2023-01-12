@@ -23,9 +23,15 @@ namespace bytebank_ADM.Funcionarios
             Salario = salario;
         }
 
-        public double GetBonificacao()
+        public virtual double GetBonificacao()
         {
             return this.Salario * 0.10;
         }
+
+        public virtual double PremioSemestral()
+        {
+            return this.Salario * 0.20;
+        }
+
     }
 }
