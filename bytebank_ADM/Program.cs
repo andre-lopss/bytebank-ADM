@@ -30,6 +30,11 @@ namespace bytebank_ADM
             gerenciador.Registrar(Carlos);
             Console.WriteLine("Total de bonificações: " + gerenciador.TotalDeBonificacao);
             Console.WriteLine("Total de funcionários: " + Funcionario.TotalDeFuncionarios);
+
+            Pedro.AumentarSalario();
+            Console.WriteLine(Pedro.Salario);
+
+
             Console.ReadLine();
         }
     }

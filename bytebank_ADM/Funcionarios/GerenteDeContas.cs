@@ -12,11 +12,8 @@ namespace bytebank_ADM.Funcionarios
         {
         }
 
-        public GerenteDeContas(string nome, string cpf, double salario)
+        public GerenteDeContas(string nome, string cpf, double salario) : base(nome, cpf, salario)
         {
-            Nome = nome;
-            Cpf = cpf;
-            Salario = salario;
         }
 
         public override double GetBonificacao()
