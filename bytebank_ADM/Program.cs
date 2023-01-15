@@ -12,27 +12,34 @@ namespace bytebank_ADM
     {
         static void Main(string[] args)
         {
-            Funcionario Pedro = new Funcionario("Pedro Silva", "08342484507", 2000);
-            Console.WriteLine(Pedro.Nome);
-            Console.WriteLine(Pedro.GetBonificacao());
+            #region
+            //Diretor Marcio = new Diretor("Marcio Silva", "11122233345");
+            //Console.WriteLine(Marcio.Nome);
+            //Console.WriteLine(Marcio.GetBonificacao());
 
-            Diretor Marcio = new Diretor("Marcio Silva", "11122233345", 10000);
-            Console.WriteLine(Marcio.Nome);
-            Console.WriteLine(Marcio.GetBonificacao());
+            //GerenteDeContas Carlos = new GerenteDeContas("Carlos Silva", "11122888345");
+            //Console.WriteLine(Carlos.Nome);
+            //Console.WriteLine(Carlos.GetBonificacao());
 
-            GerenteDeContas Carlos = new GerenteDeContas("Carlos Silva", "11122888345", 1000);
-            Console.WriteLine(Carlos.Nome);
-            Console.WriteLine(Carlos.GetBonificacao());
+            //GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+            //gerenciador.Registrar(Marcio);
+            //gerenciador.Registrar(Carlos);
+            //Console.WriteLine("Total de bonificações: " + gerenciador.TotalDeBonificacao);
+            //Console.WriteLine("Total de funcionários: " + Funcionario.TotalDeFuncionarios);
+            #endregion
 
             GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
-            gerenciador.Registrar(Pedro);
-            gerenciador.Registrar(Marcio);
-            gerenciador.Registrar(Carlos);
-            Console.WriteLine("Total de bonificações: " + gerenciador.TotalDeBonificacao);
-            Console.WriteLine("Total de funcionários: " + Funcionario.TotalDeFuncionarios);
+            Designer ulisses = new Designer("Ulisses Souza", "0842484561");
+            Diretor paula = new Diretor("Paula Souza", "42451546252");
+            Auxiliar igor = new Auxiliar("Igor Dias", "88899966655");
+            GerenteDeContas camila = new GerenteDeContas("Camila Lopes", "99988877744");
 
-            Pedro.AumentarSalario();
-            Console.WriteLine(Pedro.Salario);
+            gerenciador.Registrar(ulisses);
+            gerenciador.Registrar(paula);
+            gerenciador.Registrar(igor);
+            gerenciador.Registrar(camila);
+
+            Console.WriteLine("Total de bonificação: " + gerenciador.TotalDeBonificacao);
 
 
             Console.ReadLine();
