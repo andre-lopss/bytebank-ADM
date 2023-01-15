@@ -68,7 +68,5 @@ namespace bytebank_ADM
 
             Console.ReadLine();
         }
-
-
     }
 }

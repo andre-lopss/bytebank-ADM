@@ -1,6 +1,4 @@
-﻿using bytebank_ADM.Funcionarios;
-
-namespace bytebank_ADM.SistemaInternoBytebank
+﻿namespace bytebank_ADM.SistemaInternoBytebank
 {
     public interface IAutenticavel
     {

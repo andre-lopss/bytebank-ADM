@@ -1,6 +1,4 @@
-﻿using bytebank_ADM.Funcionarios;
-using bytebank_ADM.Parceria;
-using System;
+﻿using System;
 
 namespace bytebank_ADM.SistemaInternoBytebank
 {
