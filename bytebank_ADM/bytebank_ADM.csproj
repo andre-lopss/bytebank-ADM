@@ -50,6 +50,8 @@
     <Compile Include="Funcionarios\GerenteDeContas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SistemaInternoBytebank\Autenticavel.cs" />
+    <Compile Include="SistemaInternoBytebank\SistemaInterno.cs" />
     <Compile Include="Utilitario\GerenciadorDeBonificacao.cs" />
   </ItemGroup>
   <ItemGroup>

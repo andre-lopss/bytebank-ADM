@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace bytebank_ADM.Funcionarios
+﻿namespace bytebank_ADM.Funcionarios
 {
     public abstract class Funcionario
     {
@@ -33,6 +27,6 @@ namespace bytebank_ADM.Funcionarios
             return this.Salario * 0.20;
         }
 
-        public abstract void AumentarSalario();
+        public abstract void AumentarSalario(); 
     }
 }
