@@ -2,7 +2,7 @@
 
 namespace bytebank_ADM.Funcionarios
 {
-    public class Diretor : Autenticavel
+    public class Diretor : FuncionarioAutenticavel
     {
         public Diretor()
         {

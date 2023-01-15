@@ -2,7 +2,7 @@
 
 namespace bytebank_ADM.Funcionarios
 {
-    public class GerenteDeContas : Autenticavel
+    public class GerenteDeContas : FuncionarioAutenticavel
     {
         public GerenteDeContas()
         {

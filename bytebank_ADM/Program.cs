@@ -2,6 +2,7 @@
 using bytebank_ADM.Utilitario;
 using bytebank_ADM.SistemaInternoBytebank;
 using System;
+using bytebank_ADM.Parceria;
 
 namespace bytebank_ADM
 {
@@ -55,8 +56,13 @@ namespace bytebank_ADM
                 ursula.Login = "ursula.bytebank";
                 ursula.Senha = "666555";
 
+                ParceiroComercial caio = new ParceiroComercial();
+                caio.Login = "caio.parceiro";
+                caio.Senha = "parceiro123";
+
                 sistema.Logar(ingrid, "ingrid.bytebank", "aisdff");
                 sistema.Logar(ursula, "ursula.bytebank", "666555");
+                sistema.Logar(caio, "caio.parceiro", "parceiro123");
             }
             UsarSistema();
 

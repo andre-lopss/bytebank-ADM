@@ -1,15 +1,17 @@
-﻿using System;
+﻿using bytebank_ADM.Funcionarios;
+using bytebank_ADM.Parceria;
+using System;
 
 namespace bytebank_ADM.SistemaInternoBytebank
 {
     public class SistemaInterno
     {
-        public bool Logar(Autenticavel funcionario, string login, string senha)
+        public bool Logar(IAutenticavel funcionario, string login, string senha)
         {
             bool usuarioAutenticado = funcionario.Autenticar(login, senha);
             if (usuarioAutenticado)
             {
-                Console.WriteLine("Boas vindas ao nosso sistema, " + funcionario.Nome+"!");
+                Console.WriteLine("Boas vindas ao nosso sistema!");
                 return true;
             } else
                 Console.WriteLine("Senha ou usuário incorreto");
